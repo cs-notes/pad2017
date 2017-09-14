@@ -66,15 +66,19 @@ During the oral test you will have to answer queries on your final project and t
 
 ## Lectures
 
+|Date|Lecture|Topics|Slides|
+|----|-------|------|------|
+|18/09| 16 -- 18 | Introduction, Clouds and Datacenter | [Slides (PDF)](./slides/introduction.odf)|
+
 ## Tentative Topics
 The following list of topics is subject to change.
 
 | Topic | Description | References |
 |--------|-------------|------------|
-|Datacenters & Cloud | | [BCH] Chapters 1 and 4 |
-| MapReduce Programming Model | | |
+|Datacenters & Cloud | Big data and large scale problems. The Cloud paradigm and the datacenter as a computer.| [BCH] Chapters 1 and 4. |
+| MapReduce Programming Model | Basics, partitioners, combiners, design patterns, I/O, physical execution | [MMD] Chapter 2, [LIN] Chapters 1.2, 2,  3.1, 3.2, 3.3, 5.1 and 5.2.|
 | Programming in Hadoop| | |
-| Algorithms in MapReduce: | Real-world problems solved with MapReduce: PageRank, Inverted Indexing, Near Duplicate Detection | |
+| Algorithms in MapReduce: | Real-world problems solved with MapReduce: PageRank, Inverted Indexing, Near Duplicate Detection | [LIN] Chapters 4.1, 4.2, 4.3, 4.4 and 5.3. [MMD] Chapters 3.1, 3.2, 3.3. and 3.4. |
 | Data models, representation and storage| | |
 | Data management and replication | | |
 | Data Consistency & Consensus | Consistency Models, Eventual Consistency, Consensus, FLP and CAP Theorems, PAXOS| |
@@ -83,65 +87,9 @@ The following list of topics is subject to change.
 
 ## References
 
-*  The Datacenter as a Computer, 2nd edition, L.A. Barroso, J. Clidaras, U. Holzle, Morgan & Claypool Publisher, 2013\. ([Amazon](https://www.amazon.com/Datacenter-Computer-Introduction-Warehouse-Scale-Architecture/dp/1627050094)) [BCH]
-## Useful Links and Material
+* The Datacenter as a Computer, 2nd edition, L.A. Barroso, J. Clidaras, U. Hölzle, Morgan & Claypool Publisher, 2013\. ([link](http://web.eecs.umich.edu/~mosharaf/Readings/DC-Computer.pdf)) [BCH]
+* Mining of Massive Datasets, J. Leskovec, A. Rajaraman, J. Ullman, Cambridge University Press, 2014\. ([link](http://www.mmds.org)) [MMD]
+* Data-Intensive Text Processing with MapReduce, J. Lin, C. Dyers, Morgan & Claypool Publishers, 2010\. ([link](https://lintool.github.io/MapReduceAlgorithms/MapReduce-book-final.pdf)) [LIN]
 
-The following schedule is subject to change.
+[//]: <> (## Useful Links and Material)
 
-| Class    | Topics                           |  Resources | Assignments       |
-|----------|----------------------------------|------------| ----------------  |
-| Aug 17   | [Core Concepts](http://tiny.cc/CSC-DevOpsCore) |  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)        | [HW0](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md) |
-| Aug 22   | [Configuration Management](http://tiny.cc/devops-cm-slides)  |            | |
-| Aug 24   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/CM/blob/master/README.md) |            | [HW1](HW/HW1.md) |
-| Aug 29   | [Workshop: Ansible](https://github.com/CSC-DevOps/CM/blob/master/README.md) |  |   |
-| Aug 31   | Workshop: Provisioning   |            |                   |
-| Sep 5    | [Build Management](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)   |             | [MILESTONE: CM+BUILD](Project/CM.md) |
-| Sep 7   |  [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)       |            |                   |
-| Sep 12   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |                   |
-| Sep 14   | [Workshop: Complexity](https://github.com/CSC-DevOps/Complexity)                |            |                   |
-| Sep 19   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            | |        
-| Sep 21   | [Workshop: Test Suites]()    |      |    |
-| Sep 26   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing) |   |   MILESTONE: TEST/ANALYSIS |
-| Sep 28   | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration)   |   |  HW2   |
-| Oct 3   |  [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)  |     |  |
-| Oct 5&mdash;6    | Fall Break                       |            |                   |
-| Oct 10   | [Infrastructure Management](https://1drv.ms/p/s!AG169vwdL5H_jUY)        |            |                   |
-| Oct 12  |  [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                   |     |                   |
-| Oct 17   | [Feature Flags/Property Sets/Redis](https://docs.google.com/presentation/d/1cqVz0H4t-b7ZWMEbfBaYJDLSePhMOOjWW04CRzsIY5k/edit#slide=id.p)|            | MILESTONE: DEPLOY |
-| Oct 19   | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)|            | HW3       |            
-| Oct 24   | [Staging + Deployment](https://docs.google.com/presentation/d/1J3oDEPSGzDGa0B41Ppe8yA02tYicSgstVXHU5mGxU5w/edit#slide=id.g1da8fd6af9_0_196)             |            |                   |
-| Oct 26    | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment/blob/master/README.md)             |            |                   |
-| Oct 31   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)   |            |                   |
-| Nov 2   | [Advanced Docker: Deployment](https://github.com/CSC-DevOps/Course/blob/master/Workshops/AdvancedDocker.md)                    |   | HW4    |
-| Nov 7   | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)            |            | MILESTONE: SPECIAL|
-| Nov 9   | Workshop: Monitoring + Resilience|  [Chaos Engineering](https://www.facebook.com/notes/tpm-networking-group/notes-from-chaos-community-day-nov-4th-2015/1042668315800057)          |                   |
-| Nov 14   |  DevOps at Work I   |            |             |
-| Nov 16   |  DevOps at Work II  |            |             |
-| Nov 21   | [Tech Talks #4](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)          |                   |
-| Nov 23   | Thanksgiving                     |            |                   |
-| Nov 28   | Demos                     |            |                   |
-| Nov 30   | Demos                     |            |                   |
-| Dec 5   | Exam (1:00PM - 4:00PM)           |            |                   |
-
-### Additional Resources
-
-[Slack](https://cscdevops-fall2017.slack.com)
-
-##### Papers
-
-* [An empirical study on principles and practices of continuous delivery and deployment](https://peerj.com/preprints/1889.pdf)
-
-##### Books
-
-* [Effective DevOps](https://www.amazon.com/Effective-DevOps-Building-Collaboration-Affinity/dp/1491926309)
-* [Ansible: Up and Running](http://www.ansiblebook.com/)
-* [Continous Delivery](http://continuousdelivery.com/)
-* [Continous Integration](http://www.amazon.com/Continuous-Integration-Improving-Software-Reducing/dp/0321336380)
-* [Designing Data-Intensive Applications](http://dataintensive.net/)
-* [Systems Performance: Enterprise and the Cloud](http://www.brendangregg.com/sysperfbook.html)
-* [The Practice of Cloud System Administration](http://the-cloud-book.com/)
-* [DevOps: A Software Architect's Perspective, SEI](http://www.amazon.com/DevOps-Software-Architects-Perspective-Engineering/dp/0134049845)
-
-##### Glossary of Tools
-
-* [http://newrelic.com/devops/toolset](http://newrelic.com/devops/toolset)
