@@ -76,20 +76,21 @@ The following list of topics is subject to change.
 | Topic | Description | References |
 |--------|-------------|------------|
 |Datacenters & Cloud | Big data and large scale problems. The Cloud paradigm and the datacenter as a computer.| [BCH] Chapters 1 and 4. |
-| MapReduce Programming Model | Basics, partitioners, combiners, design patterns, I/O, physical execution | [MMD] Chapter 2, [LIN] Chapters 1.2, 2,  3.1, 3.2, 3.3, 5.1 and 5.2.|
-| Programming in Hadoop| | |
+| MapReduce Programming Model | Basics, partitioners, combiners, design patterns, I/O, physical execution, data storage | [MMD] Chapter 2, [LIN] Chapters 1.2, 2,  3.1, 3.2, 3.3, 5.1 and 5.2.|
+| Programming in Hadoop| Installation and configuration, I/O, interfaces, types and formats. | [TW] |
 | Algorithms in MapReduce: | Real-world problems solved with MapReduce: PageRank, Inverted Indexing, Near Duplicate Detection | [LIN] Chapters 4.1, 4.2, 4.3, 4.4 and 5.3. [MMD] Chapters 3.1, 3.2, 3.3. and 3.4. |
-| Data models, representation and storage| | |
-| Data management and replication | | |
-| Data Consistency & Consensus | Consistency Models, Eventual Consistency, Consensus, FLP and CAP Theorems, PAXOS| |
-| Time in distributed System| | |
-| Web Serch Engine Infrastructure| Crawling, Indexing, Query Processing||
+| Data models, representation and storage| Relational, document and graph models, SS Tables, LSM trees, format and encoding of data (Thrift, Avro, Protocol buffers) | [DDIA], Chapters 3 and 4.|
+| Data management and replication | Leaders and followers, single leader and multi leader replication, leaderless replication, consistent hashing | [DDIA] Chapter 5.|
+| Data Consistency & Consensus | Consistency Models, Eventual Consistency, Consensus, FLP and CAP Theorems| Slides |
+| Time in distributed System | Events, scalar clocks, vector clocks, global state | [TIME] |
+| Web Serch Engine Infrastructure| Crawling, Indexing, Query Processing| [WSE]|
 
 ## References
 
-* The Datacenter as a Computer, 2nd edition, L.A. Barroso, J. Clidaras, U. Hölzle, Morgan & Claypool Publisher, 2013\. ([link](http://web.eecs.umich.edu/~mosharaf/Readings/DC-Computer.pdf)) [BCH]
+* The Datacenter as a Computer, 2nd edition, L. A. Barroso, J. Clidaras, U. Hölzle, Morgan & Claypool Publishers, 2013\. ([Amazon](https://www.amazon.com/Datacenter-Computer-Introduction-Warehouse-Scale-Architecture/dp/1627050094)) [BCH]
 * Mining of Massive Datasets, J. Leskovec, A. Rajaraman, J. Ullman, Cambridge University Press, 2014\. ([link](http://www.mmds.org)) [MMD]
 * Data-Intensive Text Processing with MapReduce, J. Lin, C. Dyers, Morgan & Claypool Publishers, 2010\. ([link](https://lintool.github.io/MapReduceAlgorithms/MapReduce-book-final.pdf)) [LIN]
-
-[//]: <> (## Useful Links and Material)
-
+* Hadoop -- The Definitive Guide, 4th edition, T. White, O'Reilly, 2015\. ([Amazon](https://www.amazon.com/Hadoop-Definitive-Storage-Analysis-Internet/dp/1491901632)) [TW]
+* Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, D. Kleppmann, O'Reilly, 2017\. ([Amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)) [DDIA]
+* Scalability Challenges in Web Search Engines, B. B. Cambazoglu R. Baeza-Yates, Morgan & Claypool Publishers, 2016\. ([Amazon](https://www.amazon.com/Scalability-Challenges-Synthesis-Information-Retrieval/dp/1627058125)) [WSE]
+* Lecture notes on logical time and synchronization, University of New South Wales ([link](http://www.cse.unsw.edu.au/~cs9243/15s1/lectures/synch-notes.pdf)) [TIME]
