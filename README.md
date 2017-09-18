@@ -68,7 +68,7 @@ During the oral test you will have to answer queries on your final project and t
 
 |Date|Lecture|Topics|Slides|
 |----|-------|------|------|
-|18/09| 16 -- 18 | Introduction, Clouds and Datacenter | [Slides (PDF)](./slides/introduction.odf)|
+|18/09| 16 -- 18 | Introduction, Clouds and Datacenter | [Slides (PDF)](./slides/introduction.pdf)|
 
 ## Tentative Topics
 The following list of topics is subject to change.
