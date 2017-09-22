@@ -4,7 +4,8 @@
 * CFU: 6
 * Period: First semester
 * Language: English
-* Lectures schedule: Monday 16--18 (L1) and Friday 9--11 (C1).
+* Lectures schedule: Monday 16--18 (L1) and Friday 9--11 (A1).
+* Backup lectures: Thursday 16--18 (CNR, Room C32)
 * Question time: After lectures or by appointment
 * Email: nicola [dot] tonellotto [at] isti [dot] cnr [dot] it
 
@@ -69,6 +70,7 @@ During the oral test you will have to answer queries on your final project and t
 |Date|Lecture|Topics|Slides|
 |----|-------|------|------|
 |18/09| 16 -- 18 | Introduction, Clouds and Datacenter | [Slides (PDF)](./slides/introduction.pdf)|
+|22/09| 9 -- 11 | MapReduce: challenges, difficulties, design ideas. Programmin model: mappers, reducers, shuffle and sort. Word count example. | [Slides (PDF)](./slides/mr1.pdf)|
 
 ## Tentative Topics
 The following list of topics is subject to change.
