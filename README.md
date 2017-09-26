@@ -69,8 +69,11 @@ During the oral test you will have to answer queries on your final project and t
 
 |Date|Lecture|Topics|Slides|
 |----|-------|------|------|
-|18/09| 16 -- 18 | Introduction, Clouds and Datacenter | [Slides (PDF)](./slides/introduction.pdf)|
-|22/09| 9 -- 11 | MapReduce: challenges, difficulties, design ideas. Programmin model: mappers, reducers, shuffle and sort. Word count example. | [Slides (PDF)](./slides/mr1.pdf)|
+|18/09| 16 - 18 | Introduction, Clouds and Datacenter. | [Slides (PDF)](./slides/introduction.pdf)|
+|22/09| 9 - 11 | MapReduce: challenges, difficulties, design ideas. Programmin model: mappers, reducers, shuffle and sort. Word count example. | [Slides (PDF)](./slides/mr1.pdf)|
+|25/09| 16 - 18 | Hadoop: basic classes (Mapper and Reducer), jobs, basic and complex data types, Word Count implementation in Hadoop. Input and Output in MapReduce. | [Slides (PDF)](./slides/mr2.pdf)|
+|29/09| 9 - 11 | Exercises.
+|02/10| 16 - 18 | LECTURE CANCELLED.
 
 ## Tentative Topics
 The following list of topics is subject to change.
