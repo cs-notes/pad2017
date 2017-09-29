@@ -53,7 +53,10 @@ First of all, we need to setup an Hadoop installation to work with. This documen
 
         hadoop@localhost$ export HADOOP_PREFIX=`pwd`
 
-7. Edit the file `conf/hadoop-env.sh` to define at least `JAVA_HOME` to be the root of your Java installation
+    Note the backticks!
+
+7. Edit the file `conf/hadoop-env.sh` to define at least `JAVA_HOME` to be the root of your Java installation.
+
 8. Try the following command:
 
         hadoop@localhost$ bin/hadoop

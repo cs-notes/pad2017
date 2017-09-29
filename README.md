@@ -72,8 +72,9 @@ During the oral test you will have to answer queries on your final project and t
 |18/09| 16 - 18 | Introduction, Clouds and Datacenter. | [Slides (PDF)](./slides/introduction.pdf)|
 |22/09| 9 - 11 | MapReduce: challenges, difficulties, design ideas. Programmin model: mappers, reducers, shuffle and sort. Word count example. | [Slides (PDF)](./slides/mr1.pdf)|
 |25/09| 16 - 18 | Hadoop: basic classes (Mapper and Reducer), jobs, basic and complex data types, Word Count implementation in Hadoop. Input and Output in MapReduce. | [Slides (PDF)](./slides/mr2.pdf)|
-|29/09| 9 - 11 | Hadoop execution modes, installation, programming, execution. HDFS command-line interface. [Word Count](./code/wordcount) exercise. | [Notes (MD)](./notes/hadoop-installation.md)|
+|29/09| 9 - 11 | Hadoop execution modes, installation. HDFS command-line interface. | [Notes (MD)](./notes/hadoop-installation.md)|
 |02/10| 16 - 18 | LECTURE CANCELLED.
+|05/10| 16 - 18 | Hadoop programming and execution. Maven dependency manager. [Word Count](./code/wordcount) exercise. | [Notes (MD)](./notes/hadoop-installation.md)|
 
 ## Tentative Topics
 The following list of topics is subject to change.
@@ -99,3 +100,11 @@ The following list of topics is subject to change.
 * Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, D. Kleppmann, O'Reilly, 2017\. ([Amazon](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)) [DDIA]
 * Scalability Challenges in Web Search Engines, B. B. Cambazoglu R. Baeza-Yates, Morgan & Claypool Publishers, 2016\. ([Amazon](https://www.amazon.com/Scalability-Challenges-Synthesis-Information-Retrieval/dp/1627058125)) [WSE]
 * Lecture notes on logical time and synchronization, University of New South Wales ([link](http://www.cse.unsw.edu.au/~cs9243/15s1/lectures/synch-notes.pdf)) [TIME]
+
+## Additional Resources
+
+* J. Dean, S. Ghemawat. *MapReduce: Simplified Data Processing on Large Clusters*, Proc. OSDI 2004 ([Download](https://static.googleusercontent.com/media/research.google.com/it//archive/mapreduce-osdi04.pdf))
+* S. Ghemawat, H. Gobioff, S.-T. Leung. *The Google File System*, Proc. SOSP 2003 ([Download](https://static.googleusercontent.com/media/research.google.com/it//archive/gfs-sosp2003.pdf))
+* K. Shvachko, H. Kuang, S. Radia, R. Chansler. *The Hadoop distributed File System*, Proc. MSST 2010 ([Download](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf))
+* W. Vogels. *Eventual Consistency*, CACM 2009 ([Download](http://cs.stanford.edu/people/chrismre/cs345/rl/eventually-consistent.pdf))
+* M. J. Fischer, N. A. Lynch, M. S. Paterson. *Impossibility of Distributed Consensus with One Faulty Process*, JACM 1985 ([Download](http://discolab.rutgers.edu/classes/cs519-old/papers/p374-fischer.pdf))
