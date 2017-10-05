@@ -261,7 +261,7 @@ If compilation and packaging runs smoothly, we will get a new `target` folder, c
 
 ## How to execute a Hadoop programs from Terminal
 
-To test the Hadoop program we just wrote, we will use a small input data set called [`pg100.txt`](./data/pg100.txt).
+To test the Hadoop program we just wrote, we will use a small input data set called [`pg100.txt`](../data/pg100.txt).
 
 1. Open a terminal and run the following commands:
 
