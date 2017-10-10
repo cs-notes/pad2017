@@ -74,9 +74,10 @@ During the oral test you will have to answer queries on your final project and t
 |25/09| 16 - 18 | Hadoop: basic classes (Mapper and Reducer), jobs, basic and complex data types, Word Count implementation in Hadoop. Input and Output in MapReduce. | [Slides (PDF)](./slides/mr2.pdf)|
 |29/09| 9 - 11 | Hadoop execution modes, installation. HDFS command-line interface. | [Notes (MD)](./notes/hadoop-installation.md)|
 |02/10| 16 - 18 | LECTURE CANCELLED (professor out of office).
-|05/10| 16 - 18 | Hadoop programming and execution. Maven dependency manager. [Word Count](./code/wordcount) exercise. | [Notes (MD)](./notes/hadoop-installation.md)|
+|05/10| 16 - 18 | (Backup) Hadoop programming and execution. Maven dependency manager. [Word Count](./code/wordcount) exercise. | [Notes (MD)](./notes/hadoop-installation.md)|
 |06/10| 9 - 11 | LECTURE CANCELLED (decreto del Direttore del Diparimento di Informatica n. 26).
 |09/10| 16 - 18 | LECTURE CANCELLED (professor out of office).
+|12/10| 16 - 18 | (Backup)
 
 ## Tentative Topics
 The following list of topics is subject to change.
