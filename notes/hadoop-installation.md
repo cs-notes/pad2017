@@ -57,9 +57,13 @@ First of all, we need to setup an Hadoop installation to work with. This documen
 
 7. Edit the file `conf/hadoop-env.sh` to define at least `JAVA_HOME` to be the root of your Java installation.
 
-8. Try the following command:
+8. `export` simply sets an environment variable. The `PATH` environment variable tells to the machine where to look for commands that will be typed:
 
-        hadoop@localhost$ bin/hadoop
+        hadoop@localhost$ export PATH=$PATH:$HADOOP_PREFIX/bin/
+
+ 9. Try the following command:
+
+        hadoop@localhost$ hadoop
 
     This will display the usage documentation for the `hadoop` script. Now you are ready to start your Hadoop cluster in one of the three supported modes: local (standalone) mode, pseudo-distributed Mode, fully distributed mode.
 
@@ -71,7 +75,7 @@ The following example copies the unpacked `conf` directory to use as input and t
 
     hadoop@localhost$ mkdir input
     hadoop@localhost$ cp conf/*.xml input
-    hadoop@localhost$ bin/hadoop jar hadoop-examples-1.2.1.jar grep input output 'dfs[a-z.]+'
+    hadoop@localhost$ hadoop jar hadoop-examples-1.2.1.jar grep input output 'dfs[a-z.]+'
     hadoop@localhost$ cat output/*
     hadoop@localhost$ rm -rf input output
 
@@ -108,11 +112,11 @@ Hadoop can also be run on a single-node in a pseudo-distributed mode where each 
 
 4. Format a new distributed-filesystem:
 
-        hadoop@localhost$ bin/hadoop namenode -format
+        hadoop@localhost$ in/hadoop namenode -format
 
 5. Start the hadoop daemons:
 
-        hadoop@localhost$ bin/start-all.sh
+        hadoop@localhost$ start-all.sh
 
 6. Browse the web interface for the *NameNode* and the *JobTracker*; by default they are available at:
 
@@ -121,25 +125,25 @@ Hadoop can also be run on a single-node in a pseudo-distributed mode where each 
 
 7. Copy the input files into the distributed filesystem:
 
-        hadoop@localhost$ bin/hadoop fs -put conf input
+        hadoop@localhost$ hadoop fs -put conf input
 
 8. Run some of the examples provided:
 
-        hadoop@localhost$ bin/hadoop jar hadoop-examples-1.2.1.jar grep input output 'dfs[a-z.]+'
+        hadoop@localhost$ hadoop jar hadoop-examples-1.2.1.jar grep input output 'dfs[a-z.]+'
 
 9. Copy the output files from the distributed filesystem to the local filesytem and examine them:
 
-        hadoop@localhost$ bin/hadoop fs -get output output
+        hadoop@localhost$ hadoop fs -get output output
         hadoop@localhost$ cat output/*
 
 10. Clean up:
 
         hadoop@localhost$ rm -r output
-        hadoop@localhost$ bin/hadoop fs -rmr input output
+        hadoop@localhost$ hadoop fs -rmr input output
 
 11. When you're done, stop the daemons with:
 
-        hadoop@localhost$ bin/stop-all.sh
+        hadoop@localhost$ stop-all.sh
 
 # Hadoop Programming
 
@@ -278,7 +282,7 @@ To test the Hadoop program we just wrote, we will use a small input data set cal
 
 3. Run the following command:
 
-        bin/hadoop fs -cat output/part* | head
+        hadoop fs -cat output/part* | head
 
     You should see the same output as when you ran the job locally.
 
