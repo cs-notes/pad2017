@@ -77,7 +77,8 @@ During the oral test you will have to answer queries on your final project and t
 |05/10| 16 - 18 | (Backup) Hadoop programming and execution. Maven dependency manager. [Word Count](./code/wordcount) exercise. | [Notes (MD)](./notes/hadoop-installation.md)|
 |06/10| 9 - 11 | LECTURE CANCELLED (decreto del Direttore del Diparimento di Informatica n. 26).
 |09/10| 16 - 18 | LECTURE CANCELLED (professor out of office).
-|12/10| 16 - 18 | (Backup)
+|12/10| 16 - 18 | (Backup) Shuffle and sort. MapReduce Examples. Partitioners and Combiners. MapReduce Distributed Filesystems and Runtime. | [Slides (PDF)](./slides/mr3.pdf)|
+|13/10| 9 - 11 | [All Caps](./code/allcaps) exercise. [Find Bigram](./code/findbigram) exercise. [Search Word](./code/searchword) exercise. | |
 
 ## Tentative Topics
 The following list of topics is subject to change.
