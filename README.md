@@ -79,6 +79,7 @@ During the oral test you will have to answer queries on your final project and t
 |09/10| 16 - 18 | LECTURE CANCELLED (professor out of office).
 |12/10| 16 - 18 | (Backup) Shuffle and sort. MapReduce Examples. Partitioners and Combiners. MapReduce Distributed Filesystems and Runtime. | [Slides (PDF)](./slides/mr3.pdf)|
 |13/10| 9 - 11 | [All Caps](./code/allcaps) exercise. [Find Bigram](./code/findbigram) exercise. [Search Word](./code/searchword) exercise. | |
+|16/10| 16 - 18 | MapReduce Design Patterns: intermediate key-value space management, matrix multiplication, relational operations, graph algorithms. | [Slides (PDF)](./slides/mr4.pdf)|
 
 ## Tentative Topics
 The following list of topics is subject to change.
