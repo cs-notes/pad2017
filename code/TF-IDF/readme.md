@@ -34,7 +34,7 @@ documents containing the term, and then taking the logarithm of that quotient):
 IDFi = log(|D|/Mi), where |D| is the total number of documents in the corpus,
 and M_i is the number of documents where the term ti appears in.
 
-Then $(TF-IDF)ij = TFij x IDFij$.
+Then (TF-IDF)ij = TFij x IDFij.
 
 A high weight in TF-IDF is reached by a high term frequency (in the given
 document) and a low document frequency of the term in the whole collection of
