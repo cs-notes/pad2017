@@ -25,8 +25,6 @@ After the course, the students will be able to:
 * collect, represent, organize and manage huge volumes of data;
 * process big data to generate new knowledge with the MapReduce paradigm.
 
-[//]: <> (This is also a comment.)
-
 ## Recommended prerequisites
 
 * Knowledge in Java programming
@@ -80,6 +78,8 @@ During the oral test you will have to answer queries on your final project and t
 |12/10| 16 - 18 | (Backup) Shuffle and sort. MapReduce Examples. Partitioners and Combiners. MapReduce Distributed Filesystems and Runtime. | [Slides (PDF)](./slides/mr3.pdf)|
 |13/10| 9 - 11 | [All Caps](./code/allcaps) exercise. [Find Bigram](./code/findbigram) exercise. [Search Word](./code/searchword) exercise. | |
 |16/10| 16 - 18 | MapReduce Design Patterns: intermediate key-value space management, matrix multiplication, relational operations, graph algorithms. | [Slides (PDF)](./slides/mr4.pdf)|
+|20/10| 9 - 11 | [TF-IDF](./code/TD-IDF) exercise.| | |
+|23/10| 16 - 18 | LECTURE CANCELLED (professor out of office).
 
 ## Tentative Topics
 The following list of topics is subject to change.

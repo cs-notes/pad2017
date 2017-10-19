@@ -43,8 +43,7 @@ for a term will always be greater than or equal to zero.
 
 ## Compute TF-IDF using MapReduce
 
-Given a small collection of documents, we are going to implement TF-IDF scores
-using Hadoop. We will need the following information:
+Given a small collection of documents, we are going to implement TF-IDF scores using Hadoop. We will need the following information:
 
 * number of times term ti appears in a given document (n)
 * number of terms in each document (N)
