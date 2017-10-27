@@ -80,6 +80,8 @@ During the oral test you will have to answer queries on your final project and t
 |16/10| 16 - 18 | MapReduce Design Patterns: intermediate key-value space management, matrix multiplication, relational operations, graph algorithms. | [Slides (PDF)](./slides/mr4.pdf)|
 |20/10| 9 - 11 | [TF-IDF](./code/TF-IDF) exercise.| | |
 |23/10| 16 - 18 | LECTURE CANCELLED (professor out of office).
+|26/10| 16 - 18 | (Backup) LECTURE CANCELLED (lack of students).
+|27/10| 9 - 11 | Data representation: relational, document and graph models. OLTP and OLAP systems. Hash indexes and Log-structured Merge Trees. B-Trees. | [Slides (PDF)](./slides/data1.pdf)|
 
 ## Tentative Topics
 The following list of topics is subject to change.
