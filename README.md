@@ -84,6 +84,8 @@ During the oral test you will have to answer queries on your final project and t
 |27/10| 9 - 11 | Data representation: relational, document and graph models. OLTP and OLAP systems. Hash indexes and Log-structured Merge Trees. B-Trees. | [Slides (PDF)](./slides/data1.pdf)|
 |06/11| 16 - 18 | Column-oriented representation. Data encodings, serialization, backfard and forward compatibility. Examples in Thrifht, Protocol Buffers and Avro. | [Slides (PDF)](./slides/data2.pdf)|
 |10/11| 9 - 11 | Data Replication. Scalability, performance, availability. Distributed Systems model and correctness criteria. Consistency models: strict consistency and linearizability | [Slides (PDF)](./slides/repl1.pdf)|
+|13/11| 16 - 18 |
+|16/11| 16 - 18 | (Backup)
 
 ## Tentative Topics
 The following list of topics is subject to change.
@@ -93,7 +95,7 @@ The following list of topics is subject to change.
 |Datacenters & Cloud | Big data and large scale problems. The Cloud paradigm and the datacenter as a computer.| [BCH] Chapters 1 and 4. |
 | MapReduce Programming Model | Basics, partitioners, combiners, design patterns, I/O, physical execution, data storage | [MMD] Chapter 2, [LIN] Chapters 1.2, 2,  3.1, 3.2, 3.3, 5.1 and 5.2.|
 | Programming in Hadoop | Installation and configuration, I/O, interfaces, types and formats. | [TW] |
-| Algorithms in MapReduce: | Real-world problems solved with MapReduce: PageRank, Inverted Indexing, Near Duplicate Detection | [LIN] Chapters 4.1, 4.2, 4.3, 4.4 and 5.3. [MMD] Chapters 3.1, 3.2, 3.3. and 3.4. |
+| Algorithms in MapReduce: | Real-world problems solved with MapReduce: PageRank, Inverted Indexing, <s>Near Duplicate Detection</s> | [LIN] Chapters 4.1, 4.2, 4.3, 4.4 and 5.3. <s>[MMD] Chapters 3.1, 3.2, 3.3. and 3.4.</s>s> |
 | Data models, representation and storage| Relational, document and graph models, SS Tables, LSM trees, format and encoding of data (Thrift, Avro, Protocol buffers) | [DDIA], Chapters 3 and 4.|
 | Data management and replication | Leaders and followers, single leader and multi leader replication, leaderless replication, consistent hashing | [DDIA] Chapter 5.|
 | Data Consistency & Consensus | Consistency Models, Eventual Consistency, Consensus, FLP and CAP Theorems| Slides |
