@@ -83,6 +83,7 @@ During the oral test you will have to answer queries on your final project and t
 |26/10| 16 - 18 | (Backup) LECTURE CANCELLED (lack of students).
 |27/10| 9 - 11 | Data representation: relational, document and graph models. OLTP and OLAP systems. Hash indexes and Log-structured Merge Trees. B-Trees. | [Slides (PDF)](./slides/data1.pdf)|
 |06/11| 16 - 18 | Column-oriented representation. Data encodings, serialization, backfard and forward compatibility. Examples in Thrifht, Protocol Buffers and Avro. | [Slides (PDF)](./slides/data2.pdf)|
+|10/11| 9 - 11 | Data Replication. Scalability, performance, availability. Distributed Systems model and correctness criteria. Consistency models: strict consistency and linearizability | [Slides (PDF)](./slides/repl1.pdf)|
 
 ## Tentative Topics
 The following list of topics is subject to change.
