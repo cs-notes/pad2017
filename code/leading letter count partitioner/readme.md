@@ -1,9 +1,7 @@
-Exercises
+Exercise
 =========
 
-1.	Take the original `WordCount` job and add a combiner to it. What’s different about the output? ([solution](./combiner))
-
-2.	Write a MapReduce job that outputs the most common word that starts with a vowel and the most common word that starts with a consonant. The output should also include the number of times the words appear. ([solution](./partitioner))
+Write a MapReduce job that outputs the most common word that starts with a vowel and the most common word that starts with a consonant. The output should also include the number of times the words appear.
 
 	One way to solve this problem would be to use vowel/consonant as the key and pack the words and their counts into the values. Doing that will make using a combiner harder (why?), so the values emitted from the map phase should contain only numeric word counts.
 
