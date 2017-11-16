@@ -119,3 +119,4 @@ The following list of topics is subject to change.
 * K. Shvachko, H. Kuang, S. Radia, R. Chansler. *The Hadoop distributed File System*, Proc. MSST 2010 ([Download](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf))
 * W. Vogels. *Eventual Consistency*, CACM 2009 ([Download](http://cs.stanford.edu/people/chrismre/cs345/rl/eventually-consistent.pdf))
 * M. J. Fischer, N. A. Lynch, M. S. Paterson. *Impossibility of Distributed Consensus with One Faulty Process*, JACM 1985 ([Download](http://discolab.rutgers.edu/classes/cs519-old/papers/p374-fischer.pdf))
+* Douglas B. Terry, Alan J. Demers, Karin Petersen, Mike J. Spreitzer, Marvin M. Theimer, and Brent B. Welch. *Session Guarantees for Weakly Consistent Replicated Data*, Proc. PDIS 1994 ([Download](./notes/clientcentricmodels.pdf))
