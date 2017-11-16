@@ -83,7 +83,7 @@ During the oral test you will have to answer queries on your final project and t
 |26/10| 16 - 18 | (Backup) LECTURE CANCELLED (lack of students).
 |27/10| 9 - 11 | Data representation: relational, document and graph models. OLTP and OLAP systems. Hash indexes and Log-structured Merge Trees. B-Trees. | [Slides (PDF)](./slides/data1.pdf)|
 |06/11| 16 - 18 | Column-oriented representation. Data encodings, serialization, backfard and forward compatibility. Examples in Thrifht, Protocol Buffers and Avro. | [Slides (PDF)](./slides/data2.pdf)|
-|10/11| 9 - 11 | Data Replication. Scalability, performance, availability. Distributed Systems model and correctness criteria. Consistency models: strict consistency and linearizability | [Slides (PDF)](./slides/repl1.pdf)|
+|10/11| 9 - 11 | Data Replication. Scalability, performance, availability. Distributed Systems model and correctness criteria. Consistency models: strict consistency and linearizability. | [Slides (PDF)](./slides/repl1.pdf)|
 |13/11| 16 - 18 | Consistency models: linearizability, sequential consistency, weak consistency. Replication models: passive and active replication. replication Log and failures management. | [Slides (PDF)](./slides/repl2.pdf)|
 |16/11| 16 - 18 | (Backup)
 
@@ -120,3 +120,4 @@ The following list of topics is subject to change.
 * W. Vogels. *Eventual Consistency*, CACM 2009 ([Download](http://cs.stanford.edu/people/chrismre/cs345/rl/eventually-consistent.pdf))
 * M. J. Fischer, N. A. Lynch, M. S. Paterson. *Impossibility of Distributed Consensus with One Faulty Process*, JACM 1985 ([Download](http://discolab.rutgers.edu/classes/cs519-old/papers/p374-fischer.pdf))
 * Douglas B. Terry, Alan J. Demers, Karin Petersen, Mike J. Spreitzer, Marvin M. Theimer, and Brent B. Welch. *Session Guarantees for Weakly Consistent Replicated Data*, Proc. PDIS 1994 ([Download](./notes/clientcentricmodels.pdf))
+* D. Terry. *Replicated Data Consistency Explained Through Baseball*, MSR-TR-2011-137 2011 ([Download](http://research.microsoft.com/pubs/157411/ConsistencyAndBaseballReport.pdf))
