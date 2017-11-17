@@ -86,7 +86,7 @@ During the oral test you will have to answer queries on your final project and t
 |10/11| 9 - 11 | Data Replication. Scalability, performance, availability. Distributed Systems model and correctness criteria. Consistency models: strict consistency and linearizability. | [Slides (PDF)](./slides/repl1.pdf)|
 |13/11| 16 - 18 | Consistency models: linearizability, sequential consistency, weak consistency. Replication models: passive and active replication. replication log and failures management. | [Slides (PDF)](./slides/repl2.pdf)|
 |16/11| 16 - 18 | (Backup) Replication models: active replications and quorum systems. Read and write quorums. Write conflits and management. Eventual consistency. Client-centric consistency models: read your writes and monotonic reads. | [Slides (PDF)](./slides/repl3.pdf)|
-|17/11| 9 - 11 | 
+|17/11| 9 - 11 | Physical and logical time. Time-line diagrams, haapened-before relation. Logical clocks: scalar and vector. Implementation. Cuts and consistent cuts. Chandy-Lamport algorithm for snapshots. | [Slides (PDF)](./slides/logtime.pdf)|
 
 ## Tentative Topics
 The following list of topics is subject to change.
