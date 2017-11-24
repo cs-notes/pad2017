@@ -87,7 +87,10 @@ During the oral test you will have to answer queries on your final project and t
 |13/11| 16 - 18 | Consistency models: linearizability, sequential consistency, weak consistency. Replication models: passive and active replication. replication log and failures management. | [Slides (PDF)](./slides/repl2.pdf)|
 |16/11| 16 - 18 | (Backup) Replication models: active replications and quorum systems. Read and write quorums. Write conflits and management. Eventual consistency. Client-centric consistency models: read your writes and monotonic reads. | [Slides (PDF)](./slides/repl3.pdf)|
 |17/11| 9 - 11 | Physical and logical time. Time-line diagrams, haapened-before relation. Logical clocks: scalar and vector. Implementation. Cuts and consistent cuts. Chandy-Lamport algorithm for snapshots. | [Slides (PDF)](./slides/logtime.pdf)|
-|20/11| 16 - 18 | [Secondary sort](./code/secondarysort) exercise.| Coordination, agreement consensus. Consensus properties. FLP Theorem: system model and notations. | [Slides (PDF)](./slides/cons1.pdf)|
+|20/11| 16 - 18 | [Secondary sort](./code/secondarysort) exercise. Coordination, agreement consensus. Consensus properties. FLP Theorem: system model and notations. | [Slides (PDF)](./slides/cons1.pdf)|
+|24/11| 9 - 11| FLP Theorem: proof | [Notes (PDF)](./notes/flp.pdf)
+|27/11| 16 - 18 |
+|30/11| 16-18 | (Backup)
 
 ## Tentative Topics
 The following list of topics is subject to change.
