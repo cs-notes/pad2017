@@ -88,8 +88,8 @@ During the oral test you will have to answer queries on your final project and t
 |16/11| 16 - 18 | (Backup) Replication models: active replications and quorum systems. Read and write quorums. Write conflits and management. Eventual consistency. Client-centric consistency models: read your writes and monotonic reads. | [Slides (PDF)](./slides/repl3.pdf)|
 |17/11| 9 - 11 | Physical and logical time. Time-line diagrams, haapened-before relation. Logical clocks: scalar and vector. Implementation. Cuts and consistent cuts. Chandy-Lamport algorithm for snapshots. | [Slides (PDF)](./slides/logtime.pdf)|
 |20/11| 16 - 18 | [Secondary sort](./code/secondarysort) exercise. Coordination, agreement consensus. Consensus properties. FLP Theorem: system model and notations. | [Slides (PDF)](./slides/cons1.pdf)|
-|24/11| 9 - 11| FLP Theorem: proof | [Notes (PDF)](./notes/flp.pdf)
-|27/11| 16 - 18 |
+|24/11| 9 - 11| FLP Theorem: proof. | [Notes (PDF)](./notes/flp.pdf)
+|27/11| 16 - 18 | CAP Theorem and Paxos Protocol. | [Slides (PDF)](./slides/cons2.pdf)|
 |30/11| 16-18 | (Backup)
 
 ## Tentative Topics
@@ -103,7 +103,7 @@ The following list of topics is subject to change.
 | Algorithms in MapReduce: | Real-world problems solved with MapReduce: PageRank, Inverted Indexing, <s>Near Duplicate Detection</s> | [LIN] Chapters 4.1, 4.2, 4.3, 4.4 and 5.3. <s>[MMD] Chapters 3.1, 3.2, 3.3. and 3.4.</s>s> |
 | Data models, representation and storage| Relational, document and graph models, SS Tables, LSM trees, format and encoding of data (Thrift, Avro, Protocol buffers) | [DDIA], Chapters 3 and 4.|
 | Data management and replication | Leaders and followers, single leader and multi leader replication, leaderless replication, consistent hashing | [DDIA] Chapter 5.|
-| Data Consistency & Consensus | Consistency Models, Eventual Consistency, Consensus, FLP and CAP Theorems| Slides |
+| Data Consistency & Consensus | Consistency Models, Eventual Consistency, Consensus, FLP and CAP Theorem, PAXOS.| Slides, Notes and Papers. |
 | Time in distributed System | Events, scalar clocks, vector clocks, global state | [TIME] |
 | Web Serch Engine Infrastructure| Crawling, Indexing, Query Processing| [WSE]|
 
@@ -123,6 +123,7 @@ The following list of topics is subject to change.
 * S. Ghemawat, H. Gobioff, S.-T. Leung. *The Google File System*, Proc. SOSP 2003 ([Download](https://static.googleusercontent.com/media/research.google.com/it//archive/gfs-sosp2003.pdf))
 * K. Shvachko, H. Kuang, S. Radia, R. Chansler. *The Hadoop distributed File System*, Proc. MSST 2010 ([Download](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf))
 * W. Vogels. *Eventual Consistency*, CACM 2009 ([Download](http://cs.stanford.edu/people/chrismre/cs345/rl/eventually-consistent.pdf))
-* M. J. Fischer, N. A. Lynch, M. S. Paterson. *Impossibility of Distributed Consensus with One Faulty Process*, JACM 1985 ([Download](http://discolab.rutgers.edu/classes/cs519-old/papers/p374-fischer.pdf))
 * Douglas B. Terry, Alan J. Demers, Karin Petersen, Mike J. Spreitzer, Marvin M. Theimer, and Brent B. Welch. *Session Guarantees for Weakly Consistent Replicated Data*, Proc. PDIS 1994 ([Download](./notes/clientcentricmodels.pdf))
 * D. Terry. *Replicated Data Consistency Explained Through Baseball*, MSR-TR-2011-137 2011 ([Download](http://research.microsoft.com/pubs/157411/ConsistencyAndBaseballReport.pdf))
+* M. J. Fischer, N. A. Lynch, M. S. Paterson. *Impossibility of Distributed Consensus with One Faulty Process*, JACM 1985 ([Download](http://discolab.rutgers.edu/classes/cs519-old/papers/p374-fischer.pdf))
+* S. Gilbert, N. A. Lynch. *Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services*. ACM SIGACT News 2002 ([Download](https://users.ece.cmu.edu/~adrian/731-sp04/readings/GL-cap.pdf))
