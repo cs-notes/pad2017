@@ -28,9 +28,9 @@ After the course, the students will be able to:
 ## Recommended prerequisites
 
 * Knowledge in Java programming
-* Algorithms
-* Basic operating systems
-* Personal laptop
+* Fundamental data structures and algorithms
+* Operating systems
+* Personal laptop (BYOD lab sessions)
 
 ## Exam
 
@@ -90,7 +90,8 @@ During the oral test you will have to answer queries on your final project and t
 |20/11| 16 - 18 | [Secondary sort](./code/secondarysort) exercise. Coordination, agreement consensus. Consensus properties. FLP Theorem: system model and notations. | [Slides (PDF)](./slides/cons1.pdf)|
 |24/11| 9 - 11| FLP Theorem: proof. | [Notes (PDF)](./notes/flp.pdf)
 |27/11| 16 - 18 | CAP Theorem and Paxos Protocol. | [Slides (PDF)](./slides/cons2.pdf)|
-|30/11| 16-18 | (Backup)
+|30/11| 16-18 | (Backup) Web Search Infrastructures: crawling. Expectations, challenges, implementation details. | [Slides (PDF)](./slides/crawl.pdf)|
+|01/12| 9-11  | Web Search Infrastructures: indexing. Expectations, challenges, implementation details. Pagerank and index construction in MapReduce| [Slides (PDF)](./slides/index.pdf)|
 
 ## Tentative Topics
 The following list of topics is subject to change.
