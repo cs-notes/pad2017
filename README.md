@@ -92,6 +92,7 @@ During the oral test you will have to answer queries on your final project and t
 |27/11| 16 - 18 | CAP Theorem and Paxos Protocol. | [Slides (PDF)](./slides/cons2.pdf)|
 |30/11| 16-18 | (Backup) Web Search Infrastructures: crawling. Expectations, challenges, implementation details. | [Slides (PDF)](./slides/crawl.pdf)|
 |01/12| 9-11  | Web Search Infrastructures: indexing. Expectations, challenges, implementation details. Pagerank and index construction in MapReduce| [Slides (PDF)](./slides/index.pdf)|
+|04/12| 16-18  | Web Search Infrastructures: processing. Expectations, challenges, implementation details. | [Slides (PDF)](./slides/query.pdf)|
 
 ## Tentative Topics
 The following list of topics is subject to change.
